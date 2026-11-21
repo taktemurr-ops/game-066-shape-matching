@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_066_shape_matching/app/app_state.dart';
-import 'package:game_066_shape_matching/app/bootstrap.dart';
-import 'package:game_066_shape_matching/app/screens/settings.dart';
-import 'package:game_066_shape_matching/app/screens/shop.dart';
-import 'package:game_066_shape_matching/app/services/ads.dart';
-import 'package:game_066_shape_matching/app/services/audio.dart';
-import 'package:game_066_shape_matching/app/services/purchases.dart';
-import 'package:game_066_shape_matching/core/game_session.dart';
-import 'package:game_066_shape_matching/core/save_store.dart';
-import 'package:game_066_shape_matching/core/telemetry.dart';
+import 'package:studio_core/app/app_state.dart';
+import 'package:studio_core/app/bootstrap.dart';
+import 'package:studio_core/app/screens/settings.dart';
+import 'package:studio_core/app/screens/shop.dart';
+import 'package:studio_core/app/services/ads.dart';
+import 'package:studio_core/app/services/audio.dart';
+import 'package:studio_core/app/services/purchases.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_066_shape_matching/game/game_config.dart';
 
 Future<AppState> _state({bool onboarded = true}) async {
